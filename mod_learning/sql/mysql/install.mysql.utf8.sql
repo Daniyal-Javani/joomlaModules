@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS `#__enroll` (
+	`id` INT(10) NOT NULL AUTO_INCREMENT,
+	`telegram_channel` VARCHAR(100) NOT NULL,
+	`address` VARCHAR(100) NOT NULL,
+	`x_coordinate` VARCHAR(100) NOT NULL,
+	`y_coordinate` VARCHAR(100) NOT NULL,
+	`name_place` VARCHAR(100) NOT NULL,
+	`phone_number` VARCHAR(100) NOT NULL, 
+  PRIMARY KEY (`id`)
+) ENGINE=INNODB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;

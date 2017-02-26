@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+	<name>Contact detail</name>
+	<author>Daniyal Javani</author>
+	<version>1.0.0</version>
+	<description>A simple contact detail module.</description>
+	<files>
+		<filename>mod_contact_detail.xml</filename>
+		<filename module="mod_contact_detail">mod_contact_detail.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="name_place" type="text" label="Name Place" decscription="Please enter your name place channel"
+				/>
+				<field name="telegram_channel" type="text" label="Telegram channel" decscription="Please enter your telegram channel"
+				/>
+				<field name="address" type="text" label="Address" decscription="Please enter your Address"
+				/>
+				<field name="phone_number" type="text" label="Phone Number" decscription="Please enter your Phone Number"
+				/>
+				<field name="address" type="text" label="Address" decscription="Please enter your Address"
+				/>
+				<field name="x_coordinate" type="text" label="X coordinate" decscription="Please enter your X coordinate"
+				/>
+				<field name="y_coordinate" type="text" label="Y coordinate" decscription="Please enter your Y coordinate"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+	<install>
+	</install>
+
+	<uninstall>
+	</uninstall>
+
+	<update> 
+	</update>
+</extension>
